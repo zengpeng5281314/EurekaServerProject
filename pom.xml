@@ -35,11 +35,18 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<!-- Eureka Server jar -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
 			<version>2.2.3.RELEASE</version>
 		</dependency>
+		<!-- Eureka Server 认证服务 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
